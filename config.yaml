@@ -1,0 +1,20 @@
+---
+spatial_size: [112, 112]
+temporal_size: 8
+train_frames_per_clip: 32
+test_frames_per_clip: 8
+train_step_between_clips: 16
+test_step_between_clips: 4
+train_batch_size: 32
+test_batch_size: 64
+
+pretrained: True
+
+K: 16384
+m: 0.999
+T: 0.07
+contrast_dim: 128
+
+min_epochs: 50
+max_epochs: 100
+patience: 10
